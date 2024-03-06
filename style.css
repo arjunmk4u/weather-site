@@ -7,14 +7,16 @@
 body{
     width: 100%;
     height: 100vh;
-    background-color: rgba(23, 74, 77, 0.486);
+    /* background-color: rgba(23, 74, 77, 0.486); */
+    background: linear-gradient(180deg, rgb(104, 100, 129), rgb(37, 115, 127));
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .container{
-    background-color: rgba(0, 0, 0, 0.158);
+    /* background-color: rgba(0, 0, 0, 0.158); */
+    background: linear-gradient(-45deg, rgb(13, 158, 144), rgb(19, 160, 179));
     width: 300px;
     height: 400px;
     display: flex;
@@ -23,6 +25,7 @@ body{
     align-items: center;
     border-radius: 10px;
     padding: 15px;
+    box-shadow: 0 5px 6px rgba(0, 0, 0,.25);
 }
 .search{
     /* background-color: rgba(255, 228, 196, 0.368); */
@@ -45,7 +48,13 @@ body{
 }
 
 .search i{
-    color: white;
+    color: rgb(0, 0, 0);
+}
+
+.icon{
+    border-radius: 50%;
+    background-color: white;
+    padding: 5px;
 }
 
 .details{
